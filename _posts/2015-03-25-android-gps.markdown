@@ -9,7 +9,8 @@ categories: jekyll update
 ---
 
 
-T.noorim 어플리케이션은 사용자 휴대폰의 GPS 설정이 필요하다. 따라서 어플리케이션의 로딩 중간에 GPS 설정 여부를 판단하기로 했다. 
+T.noorim 어플리케이션은 사용자 휴대폰의 GPS 설정이 필요하다.  
+따라서 어플리케이션의 로딩 중간에 GPS 설정 여부를 판단하기로 했다.  
 
 
 - **GPS 설정 여부 확인**
@@ -27,7 +28,7 @@ if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 } else {
   finish();
 }
-{% endhighlight %}
+{% endhighlight %}  
 
 
 - **GPS 설정 팝업창**
@@ -51,16 +52,15 @@ private void alertCheckGPS() {
     }
   }).show();
 }
-{% endhighlight %}
+{% endhighlight %}  
 
 
 - **GPS Permission 설정**
 
-> permission?
-> 1. 허락, 허가
-> 2. (문서로 된) 승인
-
-출처: [네이버 영어사전][naver-endic]
+> permission?  
+> 1. 허락, 허가  
+> 2. (문서로 된) 승인  
+> 출처: [네이버 영어사전][naver-endic]  
 
 시스템에서 특정 파일이 특정 역할을 할 수 있게 권한을 주는 작업을 해야한다. 퍼미션을 주지 않으면 '~가 종료되었습니다'라며 강제 종료되므로 `AndroidManifast`에 아래의 코드를 추가한다.
 
