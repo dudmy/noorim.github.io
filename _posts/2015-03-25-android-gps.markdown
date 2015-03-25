@@ -10,13 +10,11 @@ categories: jekyll update
 `LoadingActivity`에 *onCreate*안에 아래의 코드를 추가하였다. 사용자 휴대폰의 GPS 설정을 체크하여 비활성 상태일 경우 팝업창을 띄우고, 활성 상태일 경우 그냥 지나가도록 하였다.
 
 {% highlight ruby %}
-// GPS 관련 서비스 저장
 String context = Context.LOCATION_SERVICE;
 LocationManager locationManager = (LocationManager)getSystemService(context);
 
-// GPS 체크 관련 구문
 if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-  alertCheckGPS(); // GPS 체크 관련 함수 호출
+  alertCheckGPS();
 } else {
   finish();
 }
