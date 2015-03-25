@@ -66,7 +66,13 @@ private void alertCheckGPS() {
 
 {% highlight ruby %}
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-{% endhighlight %}
+{% endhighlight %}  
+
+
+
+
+
+![팝업창 이미지](https://github.com/noorim/noorim.github.io/tree/master/_image\img1.png)
 
 
 [naver-endic]: http://endic.naver.com/enkrEntry.nhn?sLn=kr&entryId=ed047f1c3922452eb106d322f1f3c318
