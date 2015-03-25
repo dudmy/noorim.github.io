@@ -5,17 +5,12 @@ date:   2015-03-25 16:53:00
 categories: jekyll update
 ---
 
-#### GPS 판단 후 설정화면 이동
----
+T.noorim 어플리케이션은 사용자 휴대폰의 GPS 설정이 필요하여 로딩 중간에 GPS 설정 여부를 판단하기로 했다.  
 
 
-T.noorim 어플리케이션은 사용자 휴대폰의 GPS 설정이 필요하다.  
-따라서 어플리케이션의 로딩 중간에 GPS 설정 여부를 판단하기로 했다.  
-
-
-- **GPS 설정 여부 확인**
-
-`LoadingActivity`에 `onCreate`안에 아래의 코드를 추가하였다. 사용자 휴대폰의 GPS 설정을 체크하여 비활성 상태일 경우 팝업창을 띄우고, 활성 상태일 경우 그냥 지나가도록 하였다.
+#### GPS 설정 여부 확인
+---  
+`LoadingActivity`에 *onCreate*안에 아래의 코드를 추가하였다. 사용자 휴대폰의 GPS 설정을 체크하여 비활성 상태일 경우 팝업창을 띄우고, 활성 상태일 경우 그냥 지나가도록 하였다.
 
 {% highlight ruby %}
 // GPS 관련 서비스 저장
@@ -31,9 +26,9 @@ if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 {% endhighlight %}  
 
 
-- **GPS 설정 팝업창**
-
-GPS 설정화면으로 이동 여부를 묻는 팝업창이다. '확인'을 누를 경우 설정 창으로 이동하며, '취소'를 누를 경우 `MainActiviy`로 바로 이동한다.
+#### GPS 설정 팝업창
+---  
+GPS 설정화면으로 이동 여부를 묻는 팝업창이다. '*확인*'을 누를 경우 설정 창으로 이동하며, '*취소*'를 누를 경우 `MainActiviy`로 바로 이동한다.
 
 {% highlight ruby %}
 private void alertCheckGPS() {
@@ -55,24 +50,22 @@ private void alertCheckGPS() {
 {% endhighlight %}  
 
 
-- **GPS Permission 설정**
-
+#### GPS permission 설정
+---  
 > permission?  
 > 1. 허락, 허가  
 > 2. (문서로 된) 승인  
 > 출처: [네이버 영어사전][naver-endic]  
 
-시스템에서 특정 파일이 특정 역할을 할 수 있게 권한을 주는 작업을 해야한다. 퍼미션을 주지 않으면 '~가 종료되었습니다'라며 강제 종료되므로 `AndroidManifast`에 아래의 코드를 추가한다.
+시스템에서 특정 파일이 특정 역할을 할 수 있게 권한을 주는 작업을 해야한다. 퍼미션을 주지 않으면 '*~가 종료되었습니다*'라며 강제 종료되므로 `AndroidManifast`에 아래의 코드를 추가한다.
 
 {% highlight ruby %}
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 {% endhighlight %}  
 
+![팝업창 이미지](https://github.com/noorim/noorim.github.io/blob/master/_image/img1.png)
 
 
-
-
-![팝업창 이미지](https://github.com/noorim/noorim.github.io/tree/master/_image\img1.png)
 
 
 [naver-endic]: http://endic.naver.com/enkrEntry.nhn?sLn=kr&entryId=ed047f1c3922452eb106d322f1f3c318
