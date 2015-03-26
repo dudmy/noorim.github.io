@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android GPS Setup"
+title:  "Android: GPS Setup"
 date:   2015-03-25 16:53:00
 categories: jekyll update
 ---
@@ -58,7 +58,7 @@ private void alertCheckGPS() {
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 {% endhighlight %}  
 
-![팝업창 이미지](https://github.com/noorim/noorim.github.io/blob/master/_image/img1.png)
+![팝업창 이미지](/img/img1.png)
 
 
 
