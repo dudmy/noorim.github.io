@@ -1,8 +1,8 @@
 # Site settings
-title: Noorim's Graduation Project
+title: 누림(Noorim) 블로그
 email: T.noorim@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  한성대학교 멀티미디어 공학과 졸업프로젝트 팀 Noorim 입니다.
+  한성대학교 멀티미디어 공학과 졸업 프로젝트 팀 누림(Noorim) 입니다.
   지도교수님은 권정혁, 팀원은 1291011 김태리,  1291037 이지아, 
   1291044 정유진 입니다.
 baseurl: "http://noorim.github.io" # the subpath of your site, e.g. /blog/
