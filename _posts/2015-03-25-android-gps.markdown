@@ -57,7 +57,7 @@ private void alertCheckGPS() {
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 {% endhighlight %}  
 
-![팝업창 이미지](/assets/img/img1.png)
+![팝업창 이미지](/images/img1.png)
 
 
 
