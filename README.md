@@ -1,18 +1,10 @@
+HTML5 Muffin chocchip steps
+============================
 
-**This is a simple type blog theme made with Jekyll**
+Run bundle install
 
-# Features
+	bundle install
 
-* Pinot-Boilerplate
-* Pinot Buttons components
-* Normalize css
-* Modernizr added
-* Parallax Effect
-* Responsive
-* Bootstrap Included
-* Sass made
+Run jekyll
 
-
----
-
-This is Metaphor.
+	jekyll
