@@ -2,7 +2,6 @@
 layout: post
 title:  "졸업 작품 소개서"
 date:   2015-03-20
-categories: jekyll update
 ---
 
 **제목**: T.noorim (카페를 누리다)  

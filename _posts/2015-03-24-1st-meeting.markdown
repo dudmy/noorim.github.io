@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "1st Meeting"
-date:   2015-03-24 16:59:50
-categories: jekyll update
+date:   2015-03-24
 ---
 
 **회의 내용**

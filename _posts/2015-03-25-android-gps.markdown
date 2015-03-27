@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Android: GPS Setup"
-date:   2015-03-25 16:53:00
-categories: jekyll update
+date:   2015-03-25
 ---
 
 #### GPS 설정 여부 확인  
