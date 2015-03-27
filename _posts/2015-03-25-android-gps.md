@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Android: GPS Setup
+title:    Android GPS Setup
 date:     2015-03-25
 summary:  어플리케이션에 필요한 GPS 설정 여부를 판단하는 코드에 대한 정리입니다.
 ---
