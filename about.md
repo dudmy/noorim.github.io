@@ -1,19 +1,12 @@
 ---
 layout: page
-title: About Pixyll
+title: About Noorim
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+이 블로그는 한성대학교 멀티미디어 공학과 졸업프로젝트 팀 블로그입니다.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+팀명은 누림(Noorim)으로 '생활 속에서 마음껏 즐기거나 맛보다' 라는 *누리다*를 뜻합니다.
 
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+저희 팀의 지도교수님은 권정혁 교수님입니다.
+팀원은 김태리(1291011), 이지아(1291037), 정유진(1291044) 입니다.
