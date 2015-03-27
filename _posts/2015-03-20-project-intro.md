@@ -1,5 +1,5 @@
 ---
-layout      post
+layout:     post
 title:      졸업 작품 소개서
 date:       2015-03-20
 summary:    첫 중간 발표에서 소개한 프로젝트 내용입니다.
