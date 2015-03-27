@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif, 맑은 고딕;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
 }
@@ -60,8 +60,8 @@ small, .small, .f5 {
 
 @media screen and (min-width: 48em) {
   .h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 4rem;
+    line-height: 5rem;
   }
 
   .h2 {
@@ -85,8 +85,8 @@ small, .small, .f5 {
 }
 @media screen and (min-width: 64em) {
   .h1 {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 6rem;
+    line-height: 8rem;
   }
 
   .h2 {
