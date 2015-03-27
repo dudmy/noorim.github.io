@@ -23,7 +23,7 @@ if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 
 #### GPS 설정 팝업창  
 
-GPS 설정화면으로 이동 여부를 묻는 팝업창이다. *'확인'*을 누를 경우 설정 창으로 이동하며, *'취소'*를 누를 경우 `MainActiviy`로 바로 이동한다.
+GPS 설정화면으로 이동 여부를 묻는 팝업창이다. '확인'을 누를 경우 설정 창으로 이동하며, '취소'를 누를 경우 `MainActiviy`로 바로 이동한다.
 
 {% highlight ruby %}
 private void alertCheckGPS() {
@@ -57,6 +57,7 @@ private void alertCheckGPS() {
 {% highlight ruby %}
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 {% endhighlight %}  
+
 
 ![팝업창 이미지](/images/img1.png)
 
