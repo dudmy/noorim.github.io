@@ -5,7 +5,7 @@ date:     2015-03-25
 summary:  어플리케이션에 필요한 GPS 설정 여부를 판단하는 코드에 대한 정리입니다.
 ---
 
-#### GPS 설정 여부 확인  
+###GPS 설정 여부 확인  
 
 로딩 중 설정 여부 판단을 위해 `LoadingActivity`에 *onCreate*안에 아래의 코드를 추가한다. 사용자 휴대폰의 GPS 설정을 체크하여 비활성 상태일 경우 팝업창을 띄우고, 활성 상태일 경우 그냥 지나간다.
 
@@ -21,7 +21,7 @@ if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 {% endhighlight %}  
 
 
-#### GPS 설정 팝업창  
+###GPS 설정 팝업창  
 
 GPS 설정화면으로 이동 여부를 묻는 팝업창이다. '확인'을 누를 경우 설정 창으로 이동하며, '취소'를 누를 경우 `MainActiviy`로 바로 이동한다.
 
@@ -45,7 +45,7 @@ private void alertCheckGPS() {
 {% endhighlight %}  
 
 
-#### GPS permission 설정  
+###GPS permission 설정  
 
 > permission?  
 > 1. 허락, 허가  
