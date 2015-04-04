@@ -61,7 +61,7 @@ small, .small, .f5 {
 @media screen and (min-width: 48em) {
   .h1 {
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
   }
 
   .h2 {
@@ -85,13 +85,13 @@ small, .small, .f5 {
 }
 @media screen and (min-width: 64em) {
   .h1 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
   .h2 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
   }
 }
 strong, .bold {
