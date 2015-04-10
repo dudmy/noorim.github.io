@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      졸업프로젝트 시작!
-date:       2015-03-06
-summary:    
+date:       2015-03-06  
+header-img: "img/post-bg.jpg"
 ---
 
 
