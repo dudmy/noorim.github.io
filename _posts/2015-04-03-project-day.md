@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      졸업프로젝트 전시회 날짜
+title:      전시회(발표) 날짜
 subtitle:   졸업프로젝트 전시회 날짜가 2015년 6월 5일 금요일로 정해졌습니다.
 date:       2015-04-03
 header-img: "img/post-bg.jpg"

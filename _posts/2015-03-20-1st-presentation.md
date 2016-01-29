@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      졸업프로젝트 1차 발표
+title:      1차 중간 발표
 subtitle:   프로젝트 1차 발표 자료입니다. 전반적으로 프로젝트 소개에 대한 내용입니다.
 date:       2015-03-20
 header-img: "img/post-bg.jpg"
